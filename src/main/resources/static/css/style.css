@@ -1,0 +1,650 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    zoom: 100%;
+    height: 100vh;
+    width: 100vh;
+}
+
+#background {
+    height: 1596px;
+    width: 2020px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+#text {
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: -113px;
+}
+
+#text pre {
+    padding-top: 30px;
+    font-size: 105px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#first {
+    height: 963px;
+    width: 1255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+    position: absolute;
+    margin-top: -1349px;
+    margin-left: 13px;
+}
+
+#background img {
+    height: 1596px;
+    width: 2020px;
+    background-attachment: fixed;
+}
+
+.main {
+    max-width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: -66px;
+    /* border: 2px solid black; */
+}
+
+.form {
+    height: 776px;
+    width: 503px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contain {
+    margin-top: -549px;
+    /* border: 2px solid red; */
+    width: 1000px;
+    height: 1100px;
+    max-width: 1900px;
+    margin-left: -691px;
+}
+
+.contain #st p {
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-group {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.form-group #emailHelp {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.form-group #exampleInputEmail1,
+.form-group #exampleInputPassword1 {
+    /* Make input width 100% for better responsiveness */
+    height: 109px;
+    font-size: 52px;
+    padding-top: 3px;
+    width: 988px;
+}
+
+#check .form-check-label {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+#check #exampleCheck1 {
+    margin-top: 23px;
+}
+
+#submit {
+    margin-left: 296px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: -82px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    #background {
+        height: 2400px;
+        width: 1266px;
+    }
+    #background img {
+        height: 2400px;
+        width: 1266px;
+        background-attachment: fixed;
+    }
+    #text pre {
+        color: #f59a0b;
+        font-size: 105px;
+        margin-left: -70px; /* Adjust as needed for smaller screens */
+    }
+
+    #first {
+        margin-top: -2052px;
+        height: 1676px;
+        width: 1233px;
+        gap: 10px;
+        margin-left: 29px; /* Adjust as needed for smaller screens */
+         /* Adjust as needed for smaller screens */
+    }
+
+    .contain {
+        margin-top: 128px;
+        width: 1056px;
+        height: 1168px;
+        max-width: 1900px;
+        margin-left: 38px;
+    }
+    .contain #st p {
+        margin-left: 300px;
+        font-size: 79px;
+        font-weight: bold;
+    }
+
+    .form{
+        height: 1175px;
+        width: 1145px;
+    }
+
+    .form-group {
+        font-size: 57px;
+        padding-top: 15px;
+    }
+    .form-group #emailHelp {
+        font-size: 40px;
+    }
+
+
+    .main {
+        height: 1381px;
+        width: 1127px;
+        margin-top: -38px;
+    }
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 109px;
+    font-size: 52px;
+    padding-top: 3px;
+    width: 988px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 44px;
+    height: 30px;
+    width: 30px;
+    }
+    #check .form-check-label {
+        font-size: 41px;
+    margin-left: 28px;
+    }
+    #submit{
+    margin-left: 797px;
+    font-size: 63px;
+    border-radius: 25px;
+    margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    #background {
+        height: 2433px;
+        width: 1874px;
+    }
+    #background img {
+        height: 2433px;
+        width: 1874px;
+    }
+   
+   
+    #text pre {
+        font-size: 117px;
+        color: #f59a0b; 
+        margin-left: -100px;/* Adjust as needed for medium screens */
+    }
+
+    #first {
+        
+        margin-top: -2052px;
+    height: 1676px;
+    width: 1425px;
+    gap: -10px;
+    margin-left: 179px; /* Adjust as needed for smaller screens */
+             /* Adjust as needed for smaller screens */
+    /* Adjust as needed for medium screens */
+    }
+    .main {
+        height: 1381px;
+        width: 1127px;
+        margin-top: -38px;
+    }
+    .contain {
+        margin-top: 28px;
+        width: 980px;
+        height: 1120px;
+        max-width: 1900px;
+        margin-left: -17px;
+    }
+    .contain #st p {
+        margin-left: 300px;
+        font-size: 79px;
+        font-weight: bold;
+    }
+    .form{
+        height: 1275px;
+        width: 1145px;
+    }
+    .form-group {
+        font-size: 57px;
+        padding-top: 15px;
+    }
+    .form-group #emailHelp {
+        font-size: 40px;
+    }
+
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 109px;
+    font-size: 52px;
+    padding-top: 3px;
+    width: 988px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 44px;
+    height: 30px;
+    width: 30px;
+    }
+    #check .form-check-label {
+        font-size: 41px;
+    margin-left: 28px;
+    }
+    #submit{
+        margin-left: 734px;
+        font-size: 71px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        zoom: 75%;
+        height: 100vh;
+        width: 100vh;
+    }
+    #background {
+        height: 2000px;
+        width: 1874px;
+    }
+    #background img {
+        height: 2000px;
+        width: 1874px;
+    }
+   
+   
+    #text pre {
+        font-size: 117px;
+    color: #f59a0b;
+    margin-left: -132px;/* Adjust as needed for medium screens */
+    }
+
+    #first {
+        
+          margin-top: -1680px;
+    height: 1376px;
+    width: 1425px;
+    margin-left: 231px; /* Adjust as needed for smaller screens */
+             /* Adjust as needed for smaller screens */
+    /* Adjust as needed for medium screens */
+    }
+    .main {
+        height: 1381px;
+        width: 1127px;
+        margin-top: -98px;
+    }
+    .contain {
+        margin-top: 138px;
+        width: 980px;
+        height: 1120px;
+        max-width: 1900px;
+        margin-left: 10px;
+    }
+    .contain #st p {
+        margin-left: 300px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .form{
+        height: 995px;
+        width: 1045px;
+    }
+    .form-group {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+    .form-group #emailHelp {
+        font-size: 38px;
+    }
+
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 109px;
+    font-size: 50px;
+    padding-top: 3px;
+    width: 958px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 32px;
+    height: 30px;
+    width: 30px;
+    }
+    #check .form-check-label {
+        font-size: 38px;
+    margin-left: 28px;
+    }
+    #submit{
+        margin-left: 724px;
+        font-size: 60px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        zoom: 75%;
+        height: 100vh;
+        width: 100vh;
+    }
+    #background {
+        height: 1480px;
+        width: 1874px;
+    }
+    #background img {
+        height: 1480px;
+        width: 1874px;
+    }
+   
+   
+    #text pre {
+        font-size: 77px;
+    color: #f59a0b;
+    margin-left: -72px;/* Adjust as needed for medium screens */
+    }
+
+    #first {
+        
+    margin-top: -1300px;
+    height: 1000px;
+    width: 1425px;
+    margin-left: 299px; /* Adjust as needed for smaller screens */
+             /* Adjust as needed for smaller screens */
+    /* Adjust as needed for medium screens */
+    }
+    .main {
+        height: 1381px;
+        width: 957px;
+        margin-top: -98px;
+    }
+    .contain {
+        margin-top: 58px;
+        width: 780px;
+        height: 808px;
+        max-width: 1900px;
+        margin-left: 10px;
+    
+    }
+    .contain #st p {
+        margin-left: 300px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .form{
+        height: 795px;
+        width: 905px;
+    }
+    .form-group {
+        font-size: 40px;
+        padding-top: 15px;
+    }
+    .form-group #emailHelp {
+        font-size: 27px;
+    }
+
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 85px;
+    font-size: 33px;
+    padding-top: 3px;
+    width: 777px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 26px;
+    height: 20px;
+    width: 20px;
+    }
+    #check .form-check-label {
+        font-size: 30px;
+    margin-left: 15px;
+    }
+    #submit{
+        margin-left: 622px;
+        font-size: 40px;
+        border-radius: 25px;
+        margin-top: 38px;
+    }
+}
+
+   
+   
+   
+   
+   
+    /* Add more styles as needed for medium screens */
+
+
+/* Add more media queries as needed for larger screens */
+
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+    body {
+        zoom: 100%;
+        height: 100vh;
+        width: 100vh;
+    }
+    
+    #background {
+        height: 840px;
+        width: 1868px;
+    }
+    #background img {
+        height: 840px;
+        width: 1868px;
+    }
+   
+   
+    #text pre {
+        font-size: 57px;
+    color: #f59a0b;
+    margin-left: -72px;/* Adjust as needed for medium screens */
+    }
+
+    #first {
+        
+    margin-top: -750px;
+    height: 550px;
+    width: 1425px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 299px; /* Adjust as needed for smaller screens */
+             /* Adjust as needed for smaller screens */
+    /* Adjust as needed for medium screens */
+    }
+    .main {
+        height: 480px;
+        width: 580px;
+        margin-top: -18px;
+    }
+    .contain {
+        margin-top: 8px;
+        width: 580px;
+        height: 480px;
+        max-width: 1900px;
+        margin-left: 10px;
+    
+    }
+    .contain #st p {
+        margin-left: 130px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .form{
+        height: 495px;
+        width: 505px;
+    }
+    .form-group {
+        font-size: 30px;
+        padding-top: 10px;
+        margin-left: 60px;
+    }
+    .form-group #emailHelp {
+        font-size: 20px;
+    }
+
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 55px;
+    font-size: 30px;
+    padding-top: 3px;
+    width: 437px;
+    border-radius: 15px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 19px;
+    height: 15px;
+    width: 15px;
+    }
+    #check .form-check-label {
+        font-size: 20px;
+    margin-left: 10px;
+    }
+    #submit{
+        margin-left: 392px;
+        font-size: 25px;
+        border-radius: 25px;
+        margin-top: -88px;
+    }
+}
+
+
+@media only screen and (min-width: 2560px){
+
+    body {
+        zoom: 45%;
+        height: 100vh;
+        width: 100vh;
+    }
+    #background {
+        height: 3007px;
+        width: 5704px;
+    }
+    #background img {
+        height: 3007px;
+        width: 5704px;
+    }
+   
+   
+    #text pre {
+        font-size: 177px;
+    color: #f59a0b;
+    margin-left: -72px;/* Adjust as needed for medium screens */
+    }
+
+    #first {
+        
+    margin-top: -2200px;
+    height: 1950px;
+    width: 3225px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1199px; /* Adjust as needed for smaller screens */
+             /* Adjust as needed for smaller screens */
+    /* Adjust as needed for medium screens */
+    }
+    .main {
+        height: 1381px;
+        width: 957px;
+        margin-top: -118px;
+    }
+    .contain {
+        margin-top: 8px;
+        width: 1180px;
+        height: 1138px;
+        max-width: 1900px;
+        margin-left: 10px;
+    
+    }
+    .contain #st p {
+        margin-left: 300px;
+        font-size: 100px;
+        font-weight: bold;
+    }
+    .form{
+        height: 1405px;
+        width: 1405px;
+    }
+    .form-group {
+        font-size: 70px;
+        padding-top: 15px;
+    }
+    .form-group #emailHelp {
+        font-size: 57px;
+    }
+
+    .form-group #exampleInputEmail1,
+    .form-group #exampleInputPassword1 {
+        height: 135px;
+    font-size: 70px;
+    padding-top: 3px;
+    width: 1147px;
+    }
+    #check #exampleCheck1 {
+        margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    }
+    #check .form-check-label {
+        font-size: 60px;
+    margin-left: 45px;
+    }
+    #submit{
+        margin-left: 892px;
+        font-size: 80px;
+        border-radius: 25px;
+        margin-top: -78px;
+    }
+}
